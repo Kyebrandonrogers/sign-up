@@ -85,14 +85,9 @@ box-sizing: border-box;
 .form-container {
     box-shadow: 10px 10px 15px rgb(0, 0, 0, 0.4);    
     z-index: 10;
-    border: 1px solid red;
     display: flex;
     flex-direction: column;
     padding: 0 10px;
-}
-
-.form-container div {
-    border: 1px solid red;
 }
 
 .form-title {
@@ -110,19 +105,22 @@ box-sizing: border-box;
 form {
     display: flex;
     flex-wrap: wrap;
-    
+    font-size: 24px;
 }
 
 .form-box div {
-    border: 1px solid red;
     flex: 1 1 30%;
-    height: 40%;
+    height: 80px;
     box-sizing: border-box;
+    padding-left: 10px;
+    margin-bottom: 5px;
 }
 
 input {
-    width: 200px;
-    height: 20px;
+    width: 240px;
+    height: 25px;
+    border-radius: 5px;
+    border: 1px solid grey;
 }
 
 input:focus {
