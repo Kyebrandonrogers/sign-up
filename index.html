@@ -28,7 +28,7 @@
                 <p>Lets do this</p>
             </div>
             <div class="form-box">
-                <form action="GET">
+                <form id="form-section">
                     <div>
                         <label for="first-name">*First name<br>
                             <input type="text" autocomplete="off" placeholder="First Name" name="first-name" required>
@@ -46,7 +46,7 @@
                     </div>
                     <div>
                         <label for="phone-number">*Phone Number<br>
-                            <input type="text" autocomplete="off" placeholder="Phone Number" name="phone-number" required>
+                            <input type="tel" autocomplete="off" placeholder="Phone Number" name="phone-number" required>
                         </label>
                     </div>
                     <div>
@@ -59,12 +59,17 @@
                             <input type="password" autocomplete="off" placeholder="Confirm Password" name="confirm" required>
                         </label>
                     </div>
-                    
                 </form>
             </div>
-
         </div>
-        <div class="box-bottom"></div>
+        <div class="box-bottom">
+            <div class="bottom-container">
+                <button type="submit" form="form-section">Create Account</button>
+            </div>
+            <div class="bottom-text">
+                <p>Already have an account?<span> Sign in.</span></p>
+            </div>
+        </div>
     </div>
     
 </body>
